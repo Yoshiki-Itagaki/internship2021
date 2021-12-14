@@ -182,22 +182,22 @@ function func1(){
 	const money = document.getElementById('form2').word.value;
 
 	if (money < 100){
-		document.getElementById('css').href = 'indexDesign2.css';
+		document.getElementById('css').href = 'index-layout (2).css';
 	}
 	
 	else if (money >= 100 && money < 130){
-		document.getElementById('css').href = 'indexDesign3.css';
+		document.getElementById('css').href = 'index-layout (3).css';
 	}
 	
 	else if (money >= 130 && money < 150){
-		document.getElementById('css').href = 'indexDesign4.css';
+		document.getElementById('css').href = 'index-layout (4).css';
 	}
 	
 	else if(money >= 150 && money < 160){
-		document.getElementById('css').href = 'indexDesign5.css';
+		document.getElementById('css').href = 'index-layout (5).css';
 	}
 	else 
-		document.getElementById('css').href = 'indexDesign6.css';
+		document.getElementById('css').href = 'index-layout (6).css';
 }
 
 
