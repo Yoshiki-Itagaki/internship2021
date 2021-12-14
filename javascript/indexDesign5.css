@@ -1,0 +1,32 @@
+h1{
+	font-weight:normal;
+	font-size:150%;
+	color:gray;
+	text-indent:100px;
+	
+}
+
+h2{
+	font-weight:medium;
+	font-size:150%;
+	color:black;
+}
+	#label1{
+	border-color:green;
+	border-style:solid;
+	}
+	
+	#label2{
+	border-color:green;
+	border-style:solid;
+	}
+	
+	#label3{
+	border-color:red;
+	border-style:solid;
+	}
+	
+	#label4{
+	border-color:green;
+	border-style:solid;
+	}
