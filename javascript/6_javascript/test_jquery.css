@@ -1,0 +1,83 @@
+html{
+	background-color:#d2ffd2;
+}
+
+h1{
+	color:green;
+}
+
+h2{
+	color:green;
+}
+
+ul.menu{
+	margin: 50px 0px 150px 0px; /* メニューバー外側の余白　*/
+	padding: 5px 00px 5px 5px; /* 目チューバ-内側の余白（左に15px） */
+	background-color: #00ff00; /* バーの背景の色（緑）*/
+	width: 390px;
+}
+
+ul.menu li{
+	width: 125px;
+	list-style-type: none;
+	position: relative;
+	background-color: #008040;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+}
+
+ul.menu li:hover {
+	background-color: #ffff00;
+	color: black;
+}
+
+ul.menu ul{
+	margin: 0px;
+	padding: 0px;
+	display:none;
+	position: absolute;
+	background-color:#00ff00;
+}
+
+
+ul.menu ul li{
+	width: 100px;
+	border-top: gray;
+	background-color: #008000;
+
+	line-height: 40px;
+	text-align: center;
+	padding-right: 25px;
+	font-weight: normal;
+}
+
+ul.menu ul li:hover {
+	background-color: #ffff40;
+	color: gray;
+}
+
+
+.pic{
+	position:relative;
+	border-color: solid black;
+    width: 350px;
+    height:210px;
+}	
+
+.slick-prev:before,
+.slick-next:before{
+	color: black;
+}
+
+.text{
+	position:absolute;
+	top:120px;
+	left:160px;
+	width:350px;
+	color:#ff8040;
+	font-size:80%;
+}

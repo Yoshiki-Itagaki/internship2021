@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="author" content="第五回課題">
+<meta name="description" content= "課題">
+<title>第五回課題</title>
+<link href="index-layout (1).css" media="all" rel="stylesheet" id="css">
+	<script>
+	'use strict'
+	</script>
+	
+
+</head>
+
+<body>	
+	
+<h1>第五回課題<br>
+</h1>
+
+<h2>課題1
+</h2>
+<!-- 課題１：星５つを並べる -->
+		<div id = "star">
+		</div>
+
+<h2>課題2
+</h2>
+<!-- 課題2：白と黒の2種類の星をそれぞれ一列ごとに交互に並べる -->
+		<div id = "row1">			
+		</div>
+		
+		<div id = "row2">			
+		</div>
+		
+		<div id = "row3">			
+		</div>
+		
+		<div id = "row4">			
+		</div>
+		
+		<div id = "row5">			
+		</div>	
+
+<h2>課題3
+</h2>
+
+<!--  課題3： -->
+	<form action="#" id="form">
+		<!-- 入力フォーム -->
+		お金を入れる
+	<input type="number" name="word" required>&nbsp円&nbsp
+		<!-- プルダウンメニュー -->
+		<select name="select" name ='drinkCan' id="drink"> 
+			<option value="コーヒー" ><span>コーヒー(150円)</span></option>
+			<option value="お茶"><span>お茶(130円)</span></option>			
+			<option value="オレンジジュース"><span>オレンジジュース(160円)</span></option>
+			<option value="水"><span>水(100円)</span></option>
+		</select>
+		 
+		<!-- 購入ボタン -->
+		<input type="submit" value="購入">	
+	</form>
+	<p id="output"></p>
+
+
+
+<h2>発展
+<!--発展： -->
+</h2>
+	<!-- 入力フォーム -->
+	<form action="#" id="form2">
+	お金を入れる<input type="number" name="word" onchange="func1()" required>&nbsp円&nbsp<br>
+		
+		
+	<input type="radio"name="selection" value="コーヒー" id="check1"  checked><label id="label1"><span>コーヒー(150円)</span></label>
+	<input type="radio"name="selection" value="お茶" id="check2" checked><label id="label2"><span>お茶(130円)</span></label>
+	<input type="radio"name="selection" value="オレンジジュース" id="check3" checked><label id="label3"><span>オレンジジュース(160円)</span></label>
+	<input type="radio"name="selection" value="水" id="check4" checked><label id="label4"><span>水(100円)</span></label>
+			 
+	<!-- 購入ボタン -->
+	<input type="submit" value="購入">	
+	</form>
+	<p id="comment"></p>
+
+<!-- 以下Javascriptコード  -->
+	
+<script src="js/test.js" charset="utf-8"></script>
+
+</body>
+
+</html>
