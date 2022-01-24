@@ -48,7 +48,7 @@ ul.menu ul li{
 	width: 100px;
 	border-top: gray;
 	background-color: #008000;
-	
+
 	line-height: 40px;
 	text-align: center;
 	padding-right: 25px;
@@ -60,12 +60,18 @@ ul.menu ul li:hover {
 	color: gray;
 }
 
-.slider{
+
+.pic{
 	position:relative;
 	border-color: solid black;
     width: 350px;
     height:210px;
 }	
+
+.slick-prev:before,
+.slick-next:before{
+	color: black;
+}
 
 .text{
 	position:absolute;
@@ -75,11 +81,3 @@ ul.menu ul li:hover {
 	color:#ff8040;
 	font-size:80%;
 }
-
-
-
-
-
-
-
-
