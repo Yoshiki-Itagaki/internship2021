@@ -2,6 +2,7 @@ package java02;
 
 public class MobilePhone {
 
+	// フィールドの設定
 	private String phoneNumber;
 	private String emailAddress;
 

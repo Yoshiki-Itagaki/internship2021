@@ -33,9 +33,9 @@ public class Main {
 		System.out.println("<スマートフォンクラス>");
 
 		smartphone.play();
-		smartphone.turnUp();
+		smartphone.turnUp(6);
 		smartphone.playNextTrack();
-		smartphone.turnDown();
+		smartphone.turnDown(5);
 		smartphone.stop();
 		smartphone.call();
 		smartphone.sendEmail();

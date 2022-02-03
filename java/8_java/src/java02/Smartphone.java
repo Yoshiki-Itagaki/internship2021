@@ -2,6 +2,8 @@ package java02;
 
 public class Smartphone extends MobilePhone {
 
+	// フィールドの設定
+
 	private int trackNo = 1;
 	private int volume = 5;
 
@@ -18,11 +20,11 @@ public class Smartphone extends MobilePhone {
 	}
 
 	// 音量を上げるメソッド
-	public void turnUp() {
+	public void turnUp(int u) {
 
 		System.out.println("volumeを6上げます。");
 
-		volume = volume + 6;
+		volume = volume + u;
 
 		if (volume > 10) {
 
@@ -34,11 +36,11 @@ public class Smartphone extends MobilePhone {
 	}
 
 	// 音量を下げるメソッド
-	public void turnDown() {
+	public void turnDown(int d) {
 
 		System.out.println("volumeを5下げます。");
 
-		volume = volume - 5;
+		volume = volume - d;
 
 		if (volume < 0) {
 
