@@ -2,7 +2,6 @@ package jp.co.aforce.y.itagaki.human;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import jp.co.aforce.y.itagaki.Mankind;
 
@@ -58,7 +57,7 @@ public class Japanese extends Mankind implements Human {
 			long age = date.getTime() - d.getTime();
 			int ageFormatted = (int) (age / 3.154e+10);
 
-			System.out.println("I am " + ageFormatted + " year old. ");
+			System.out.println("私は" + ageFormatted + "歳です。 ");
 
 		} catch (Exception e) {
 			System.out.println(e.toString());
