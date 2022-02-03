@@ -16,6 +16,7 @@ public class American extends Mankind implements Human {
 	}
 
 	// 挨拶・自己紹介メソッド: インターフェースから
+	@Override
 	public void sayHello() {
 		System.out.println("Hello, my name is " + nameUSA);
 	}
@@ -26,20 +27,18 @@ public class American extends Mankind implements Human {
 	}
 
 	// ゲッターメソッド：抽象クラスから
-	@Override
 	public String getBirthdate() {
 		return this.birthdate;
 	}
 
 	// 年齢計算メソッド
+	// 太郎とJohnの誕生日データ変換
+
 	public void getAge() throws ParseException {
 
-		// 現在の時刻を取得
-		Date date = new Date();
-
-		// 太郎とJohnの誕生日データ変換
-
 		try {
+			// 現在の時刻を取得
+			Date date = new Date();
 			// simpleDateFormatで太郎とJohnの誕生日データをそれぞれ
 			// Dateで取得した現在時刻の表示と同等の形式に変換する:
 

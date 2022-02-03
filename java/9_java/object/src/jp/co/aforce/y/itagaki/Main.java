@@ -12,7 +12,7 @@ public class Main {
 		// 日本人インスタンス作成
 		System.out.println("<太郎クラス>");
 		Japanese j = new Japanese("太郎");
-		j.setBirthdate("1990/1/13");
+		j.setBirthdate("1980/1/13");
 		j.sayHello();
 		j.getAge();
 
